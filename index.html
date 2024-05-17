@@ -16,8 +16,6 @@
                     <ul>
                         <li><a href="#header"> Home</a></li>
                         <li><a href="#about"> About</a></li>
-                        <li><a href="#services"> Services</a></li>
-                        <li><a href="#portfolio"> Portfolio</a></li>
                         <li><a href="#contact"> Contact</a></li>
                     </ul>
                 </nav>
@@ -46,6 +44,7 @@
                             <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
                             <p class="tab-links" onclick="opentab('experience')">Experience</p>
                             <p class="tab-links" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('projects')">School Projects</p>
                         </div>
                         <div class="tab-contents active-tab" id="skills">
                             <ul>
@@ -73,58 +72,42 @@
                                 <li><span> Diploma in Hotel and Leisure Facilities Management</span><br> Ngee Ann Polytechnic, 2016 - 2019</li>
                             </ul>
                         </div>
+                        <div class="tab-contents" id="projects">
+                            <ul>
+                                <li><span> Room Booking System Development for UOW
+                                </span><br> Collaborated with a team of 5-6 students to develop a room booking system for UOW, focusing on both technical and project management skills. The system allowed staff to manage room availability and pricing, and students to book, modify, and cancel room reservations.
+                                </li>
+                                <li><span> Reaction Game Development(HTML)
+                                </span><br> Designed and developed an interactive reaction game using HTML, where players select a target number and interact with randomly generated numbers to score points.
+                                </li>
+                                <li><span> Quotation Review Program Development(Java)
+                                </span><br> Developed a Java-based GUI application to assist a sales manager in reviewing quotation details, focusing on object-oriented design, file I/O, exception handling, and good programming practices
+                                </li>
+                                <li><span> OpenCL Parallel Processing and Shift Cypher Encryption (OpenCL, C++)
+                                </span><br> Developed programs using OpenCL for parallel processing and a shift cipher encryption/decryption algorithm. The project included creating and manipulating arrays in parallel, performing encryption and decryption tasks, and handling user input validation.
+                                </li>
+                                <li><span> OpenGL 3D Room Development (OpenGL, C++)
+                                </span><br> Created a 3D room using OpenGL and C++, featuring textured walls, floor, and a painting. Implemented a rotating ornament with environment mapping and developed a control panel for frame stats, animation, light, and camera control.
+                                </li>
+                                <li><span> Unity 3D Game Prototype Development - Hades-inspired game (Unity, C#)
+                                </span><br> Developed a prototype of a 3D game inspired by the game Hades using Unity. The project focused on recreating core gameplay mechanics, character abilities, and dynamic environments similar to the original game.
+                                </li>
+                                <li><span> Cafe Staff Management System (HTML, MongoDB)
+                                </span><br> Designed and developed a Cafe Staff Management System to streamline workforce management for cafes, supporting various user roles such as System Admin, Cafe Owners, Cafe Managers, and Cafe Staff. The system facilitates work slot allocation, bidding processes, and overall staff management.
+                                </li>
+                                <li><span> Gaming with Bare Hands System (QT, Python)
+                                </span><br>  Developed an innovative gaming system allowing users to play games using hand gestures, leveraging QT for the user interface and Python for machine learning algorithms. The system provided an interactive and intuitive gaming experience without the need for conventional input devices..
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
          </div>
 
-         <!----------------- Portfolio -------------------->
-        <div class="portfolio">
-            <div class="container">
-                <h1 class="sub-title"> My Projects</h1>
-                <div class="work-list">
-                    <div class="work">
-                        <img src="images/work-1.jpg">
-                        <div class="layer">
-                            <h3> Final Year Project</h3>
-                            <p> Gaming with Bare Hands: A Machine Learning Approach 
-                                <br> 
-                                Machine learning algorithms have recently been developed to enable
-                                computer to reliably recognise hand gestures. This provides the opportunity to
-                                play computer games with bare hands. This project will investigate existing
-                                machine learning based hand gesture recognition algorithms and improve it to
-                                effectively play a computer game such a racing car, aviation, or the alike.
-                                This project will contribute to human-machine interaction, computer vision,
-                                and computer games and demonstrate the capability of modern AI
-                                techniques. This project is related to Deep Learning, Neural Networks, Image
-                                Processing, and Programming.
-
-                            </p>
-                            <a href="https://claudinekoh23.wixsite.com/gestureplay-software"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                        </div>
-                    </div>
-                    <div class="work">
-                        <img src="images/work-2.png">
-                        <div class="layer">
-                            <h3> Mobile Applications</h3>
-                            <p> During my Mobile Application Module, I engaged in a series of assignments aimed at developing practical skills in mobile app development. These assignments covered a wide range of topics and techniques essential for creating functional and user-friendly mobile applications</p>
-                            <a href="https://github.com/justclauds/Mobile-App-Development.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                        </div>
-                    </div>
-                    <div class="work">
-                        <img src="images/work-3.jpeg">
-                        <div class="layer">
-                            <h3> Unity Game</h3>
-                            <p> In this project, I embarked on an immersive journey into game development, focusing on both modding and mobile platforms. The primary objective was to create a captivating 3D game reminiscent of the acclaimed title "Hades," renowned for its engaging gameplay and captivating storytelling.</p>
-                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <a href="#" class = "btn"> See More</a>
-            </div>
-        </div>
+       
          <!----------------- Contact -------------------->
-         <div class="contact">
+         <div class="contact" id="contact">
             <div class="container">
                 <div class="row">
                     <div class="contact-left"> 
